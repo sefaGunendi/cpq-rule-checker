@@ -1,0 +1,26 @@
+name: Check CPQ Rules XML
+
+on:
+  push:
+    paths:
+      - 'rules/*.xml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run CPQ XML rule check
+        run: node checkRules.js rules/test_rule.xml

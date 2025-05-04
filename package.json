@@ -1,0 +1,23 @@
+{
+  "name": "cpq-rule-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "checkRules.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefaGunendi/cpq-rule-checker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sefaGunendi/cpq-rule-checker/issues"
+  },
+  "homepage": "https://github.com/sefaGunendi/cpq-rule-checker#readme",
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}
