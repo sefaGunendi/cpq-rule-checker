@@ -1,8 +1,0 @@
-<CPQRuleSet>
-  <Rule name="QOP_PRICING_CALCUL_TARIF">
-    <Comment>Calcul du tarif</Comment>
-  </Rule>
-  <Rule name="pricingCalculSansPrefix">
-    <Comment>Règle invalide</Comment>
-  </Rule>
-</CPQRuleSet>
