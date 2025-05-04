@@ -23,4 +23,5 @@ jobs:
         run: npm install
 
       - name: Run CPQ XML rule check
-        run: node checkRules.js rules/test_rule.xml
+        run: node checkRules.js "rules/Ruleset Default.SOP_QUARTO.xml"
+
