@@ -1,7 +1,7 @@
 <Ruleset Namespace="Default" Name="SOP_QUARTO" DefaultPageCaption="QUARTO" LoadingStyle="Default" ConstraintModel="GLOBAL" EntityId="3d8abe23-4e53-4015-8cf6-2048d2a66af8" EngineInitializationMode="ComponentAttributes" IsStatelessEngineCompliant="true">
   <Tags />
   <ComponentAttributes>
-    <ComponentAttribute Namespace="Default" Ruleset="SOP_QUARTO" Name="Butoit" DataType="String" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
+    <ComponentAttribute Namespace="Default" Ruleset="SOP_QUARTO" Name="CLR_BUTOIR_TAB2" DataType="String" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
     <ComponentAttribute Namespace="Default" Ruleset="SOP_QUARTO" Name="MAN_CABLE3" DataType="String" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
     <ComponentAttribute Namespace="Default" Ruleset="SOP_QUARTO" Name="NF_COU1_TAB1" DataType="Boolean" DefaultValue="False" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="CheckBox" PrintCode="" />
     <ComponentAttribute Namespace="Default" Ruleset="SOP_QUARTO" Name="MAT_COU1_TAB2" DataType="String" Caption="" Description="" IsLocked="false" IsVisible="true" IsPersistToOutput="true" Tooltip="" InformationMessage="" InfoLink="" AppLink="" IsHighlight="false" AutoContinue="0" IsRequired="false" DefaultGroup="" OptionListID="" DisplayFormat="" DisplayPrecision="" DisplayType="TextBox" PrintCode="" />
@@ -461,10 +461,6 @@
         <var id="da22c053-936c-405c-96cc-db1112dea55c" name="PV">
           <value>="PV_" + GroupTarif</value>
         </var>
-      </vars>
-    </Rule>
-        <Rule Namespace="Default" Ruleset="SOP_QUARTO" ChildType="true" RuleTypeName="Variable" Caption="Test sans value" ConditionExpression="" Enabled="true">
-      <vars>
       </vars>
     </Rule>
     <Rule Namespace="Default" Ruleset="SOP_QUARTO" ChildType="true" RuleTypeName="Variable" Caption="Initialisation Code Produit" ConditionExpression="" Enabled="true">
